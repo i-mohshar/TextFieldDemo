@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E4D0ED532C68ABCA00F73755 /* TextFieldDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D0ED522C68ABCA00F73755 /* TextFieldDemoApp.swift */; };
-		E4D0ED552C68ABCA00F73755 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D0ED542C68ABCA00F73755 /* ContentView.swift */; };
+		E4D0ED552C68ABCA00F73755 /* SampleFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D0ED542C68ABCA00F73755 /* SampleFormView.swift */; };
 		E4D0ED572C68ABCE00F73755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D0ED562C68ABCE00F73755 /* Assets.xcassets */; };
 		E4D0ED5A2C68ABCE00F73755 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D0ED592C68ABCE00F73755 /* Preview Assets.xcassets */; };
 		E4D0ED642C68ABCF00F73755 /* TextFieldDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D0ED632C68ABCF00F73755 /* TextFieldDemoTests.swift */; };
@@ -16,6 +16,9 @@
 		E4D0ED702C68ABCF00F73755 /* TextFieldDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D0ED6F2C68ABCF00F73755 /* TextFieldDemoUITestsLaunchTests.swift */; };
 		E4D0ED7D2C68ABFC00F73755 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D0ED7C2C68ABFC00F73755 /* CustomTextField.swift */; };
 		E4D0ED7F2C68AC2100F73755 /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D0ED7E2C68AC2100F73755 /* FormViewModel.swift */; };
+		E4F77F382C9EC648008622B0 /* PDFViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F77F372C9EC648008622B0 /* PDFViewWrapper.swift */; };
+		E4F77F3A2C9EC7FF008622B0 /* samplefile.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E4F77F392C9EC7FF008622B0 /* samplefile.pdf */; };
+		E4F77F3C2C9EC857008622B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F77F3B2C9EC857008622B0 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 /* Begin PBXFileReference section */
 		E4D0ED4F2C68ABCA00F73755 /* TextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D0ED522C68ABCA00F73755 /* TextFieldDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemoApp.swift; sourceTree = "<group>"; };
-		E4D0ED542C68ABCA00F73755 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4D0ED542C68ABCA00F73755 /* SampleFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFormView.swift; sourceTree = "<group>"; };
 		E4D0ED562C68ABCE00F73755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D0ED592C68ABCE00F73755 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4D0ED5F2C68ABCF00F73755 /* TextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +51,9 @@
 		E4D0ED6F2C68ABCF00F73755 /* TextFieldDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E4D0ED7C2C68ABFC00F73755 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		E4D0ED7E2C68AC2100F73755 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		E4F77F372C9EC648008622B0 /* PDFViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewWrapper.swift; sourceTree = "<group>"; };
+		E4F77F392C9EC7FF008622B0 /* samplefile.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = samplefile.pdf; sourceTree = "<group>"; };
+		E4F77F3B2C9EC857008622B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +104,12 @@
 		E4D0ED512C68ABCA00F73755 /* TextFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E4F77F3B2C9EC857008622B0 /* ContentView.swift */,
+				E4F77F372C9EC648008622B0 /* PDFViewWrapper.swift */,
 				E4D0ED522C68ABCA00F73755 /* TextFieldDemoApp.swift */,
-				E4D0ED542C68ABCA00F73755 /* ContentView.swift */,
+				E4D0ED542C68ABCA00F73755 /* SampleFormView.swift */,
 				E4D0ED562C68ABCE00F73755 /* Assets.xcassets */,
+				E4F77F392C9EC7FF008622B0 /* samplefile.pdf */,
 				E4D0ED582C68ABCE00F73755 /* Preview Content */,
 				E4D0ED7C2C68ABFC00F73755 /* CustomTextField.swift */,
 				E4D0ED7E2C68AC2100F73755 /* FormViewModel.swift */,
@@ -239,6 +248,7 @@
 			files = (
 				E4D0ED5A2C68ABCE00F73755 /* Preview Assets.xcassets in Resources */,
 				E4D0ED572C68ABCE00F73755 /* Assets.xcassets in Resources */,
+				E4F77F3A2C9EC7FF008622B0 /* samplefile.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4D0ED552C68ABCA00F73755 /* ContentView.swift in Sources */,
+				E4D0ED552C68ABCA00F73755 /* SampleFormView.swift in Sources */,
 				E4D0ED532C68ABCA00F73755 /* TextFieldDemoApp.swift in Sources */,
 				E4D0ED7F2C68AC2100F73755 /* FormViewModel.swift in Sources */,
+				E4F77F3C2C9EC857008622B0 /* ContentView.swift in Sources */,
 				E4D0ED7D2C68ABFC00F73755 /* CustomTextField.swift in Sources */,
+				E4F77F382C9EC648008622B0 /* PDFViewWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
